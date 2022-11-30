@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do-List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section1">
+      <div class="header"><p>My Todo's</p></div>
+    </section>
+    <section class="section2">
+      <div class="container1">
+        <div class="form">
+          <form>
+            <div class="i1">
+              <input
+                type="text"
+                id="text"
+                name="title"
+                placeholder="Title"
+                required
+              />
+            </div>
+            <div class="i2">
+              <textarea
+                id="textarea"
+                type="text"
+                name="description"
+                placeholder="Description"
+              ></textarea>
+            </div>
+            <button class="btn btn1">Add</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="section3">
+      <div class="container2">
+        <div class="card">
+          <div class="head"><p>This is the header</p></div>
+          <div class="content">
+            <div class="desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                consectetur est tempora modi accusamus culpa pariatur, porro
+                accusantium nihil ex suscipit ut voluptatum.
+              </p>
+            </div>
+            <div class="button"><button class="btn delete">Delete</button></div>
+          </div>
+        </div>
+        <div class="card">
+          <span class="head"><p>This is another header</p></span>
+          <div class="content">
+            <div class="desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                consectetur est tempora modi accusamus culpa pariatur, porro
+                accusantium nihil ex suscipit ut voluptatum.
+              </p>
+            </div>
+            <div class="button"><button class="btn delete">Delete</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

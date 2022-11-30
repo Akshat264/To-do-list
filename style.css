@@ -116,3 +116,29 @@ body {
   border: none;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 900px) {
+  body {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-desk-background-and-to-do-list-and-office-supplies-image_265311.jpg");
+    background-size: cover;
+  }
+  #text {
+    width: 100%;
+  }
+  #textarea {
+    width: 100%;
+  }
+  .header {
+    color: rgb(35, 127, 202);
+  }
+  .btn1 {
+    background-color: rgb(35, 127, 202);
+  }
+  .desc {
+    color: rgb(35, 127, 202);
+  }
+  .card {
+    background-color: rgb(196, 210, 243);
+    border: solid rgb(35, 127, 202);
+  }
+}
+
